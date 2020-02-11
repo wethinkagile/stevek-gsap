@@ -1,4 +1,4 @@
-# stevek
+# stevek.pro
 
 ## Project setup
 ```
