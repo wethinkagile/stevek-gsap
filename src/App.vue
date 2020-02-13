@@ -12,38 +12,8 @@
 import Controls from './components/Controls.vue'
 import Page from './components/Page.vue'
 
-
 import { TweenMax, TimelineMax, Power4 } from 'gsap'
 
-// Transitions
-const fade = Vue.component('fade', {
-  template: '#page',
-	methods: {
-		enter(el, done) {
-			TweenMax.fromTo(el, 1, {
-				autoAlpha: 0,
-				scale: 1.5,
-			}, {
-				autoAlpha: 1,
-				scale: 1,
-				transformOrigin: '50% 50%',
-				ease: Power4.easeOut,
-				onComplete: done
-			});
-		},
-		leave(el, done) {
-			TweenMax.fromTo(el, 1, {
-				autoAlpha: 1,
-				scale: 1,
-			}, {
-				autoAlpha: 0,
-				scale: 0.8,
-				ease: Power4.easeOut,
-				onComplete: done
-			});
-		}
-	}
-})
 
 const slide = Vue.component('slide', {
   template: '#page',
@@ -114,97 +84,6 @@ const slideUp = Vue.component('slideUp', {
 		}
 	}
 })
-
-const zoom = Vue.component('zoom', {
-  template: '#page',
-	methods: {
-		enter(el, done) {
-			const tl = new TimelineMax({
-				onComplete: done
-			})
-
-			tl.set(el, {
-				autoAlpha: 0,
-				scale: 2,
-				transformOrigin: '50% 50%'
-			})
-
-			tl.to(el, 1, {
-				autoAlpha: 1,
-				scale: 1,
-				ease: Power4.easeOut
-			})
-		},
-		leave(el, done) {
-			TweenMax.to(el, 1, {
-				scale: 0,
-				ease: Power4.easeOut,
-				onComplete: done
-			});
-		}
-	}
-})
-
-const flipX = Vue.component('flipX', {
-  template: '#page',
-	methods: {
-		enter(el, done) {
-			const tl = new TimelineMax({
-				onComplete: done
-			})
-
-			tl.set(el, {
-				autoAlpha: 0,
-				rotationX: 90,
-				transformOrigin: '50% 50%'
-			})
-
-			tl.to(el, 1, {
-				autoAlpha: 1,
-				rotationX: 0,
-				ease: Power4.easeOut
-			})
-		},
-		leave(el, done) {
-			TweenMax.to(el, 1, {
-				scale: 0,
-				ease: Power4.easeOut,
-				onComplete: done
-			});
-		}
-	}
-})
-
-const flipY = Vue.component('flipY', {
-  template: '#page',
-	methods: {
-		enter(el, done) {
-			const tl = new TimelineMax({
-				onComplete: done
-			})
-
-			tl.set(el, {
-				autoAlpha: 0,
-				rotationY: 90,
-				transformOrigin: '50% 50%'
-			})
-
-			tl.to(el, 1, {
-				autoAlpha: 1,
-				rotationY: 0,
-				ease: Power4.easeOut
-			})
-		},
-		leave(el, done) {
-			TweenMax.to(el, 1, {
-				scale: 0,
-				ease: Power4.easeOut,
-				onComplete: done
-			});
-		}
-	}
-})
-
 
 export default {
   name: 'App',
