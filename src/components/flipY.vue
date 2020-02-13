@@ -1,4 +1,5 @@
 <script>
+import { TweenMax, TimelineMax, Power4 } from 'gsap'
 const flipY = Vue.component('flipY', {
   template: '#page',
 	methods: {
@@ -29,7 +30,7 @@ const flipY = Vue.component('flipY', {
 	}
 })
 
-export default {
-  name: 'FlipY'
-}
+// export default {
+//   name: 'FlipY'
+// }
 </script>

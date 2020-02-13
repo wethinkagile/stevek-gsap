@@ -1,4 +1,7 @@
 <script>
+
+import { TweenMax, TimelineMax, Power4 } from 'gsap'
+
 const slide = Vue.component('slide', {
   template: '#page',
 	methods: {
@@ -35,7 +38,7 @@ const slide = Vue.component('slide', {
 	}
 })
 
-export default {
-  name: 'Slide'
-}
+// export default {
+//   name: 'Slide'
+// }
 </script>

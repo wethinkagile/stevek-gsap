@@ -1,4 +1,5 @@
 <script>
+import { TweenMax, TimelineMax, Power4 } from 'gsap'
 const flipX = Vue.component('flipX', {
   template: '#page',
 	methods: {
@@ -29,7 +30,7 @@ const flipX = Vue.component('flipX', {
 	}
 })
 
-export default {
-  name: 'FlipX'
-}
+// export default {
+//   name: 'FlipX'
+// }
 </script>

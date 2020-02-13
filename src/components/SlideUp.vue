@@ -1,4 +1,6 @@
 <script>
+import { TweenMax, TimelineMax, Power4 } from 'gsap'
+
 const slideUp = Vue.component('slideUp', {
   template: '#page',
 	methods: {
@@ -33,7 +35,7 @@ const slideUp = Vue.component('slideUp', {
 	}
 })
 
-export default {
-  name: 'SlideUp'
-}
+// export default {
+//   name: 'SlideUp'
+// }
 </script>

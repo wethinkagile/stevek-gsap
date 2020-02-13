@@ -26,9 +26,9 @@ const controls = Vue.component('controls', {
 	}
 })
 
-export default {
-  name: 'Controls'
-}
+// export default {
+//   name: 'Controls'
+// }
 </script>
 
 

@@ -1,5 +1,6 @@
 <script>
-// Transitions
+import { TweenMax, TimelineMax, Power4 } from 'gsap'
+
 const fade = Vue.component('fade', {
   template: '#page',
 	methods: {
@@ -29,7 +30,7 @@ const fade = Vue.component('fade', {
 	}
 })
 
-export default {
-  name: 'Fade'
-}
+// export default {
+//   name: 'Fade'
+// }
 </script>

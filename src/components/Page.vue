@@ -16,9 +16,9 @@
 
 <script>
 
-export default {
-  name: 'Page'
-}
+// export default {
+//   name: 'Page'
+// }
 </script>
 
 <style scoped>
@@ -65,7 +65,6 @@ export default {
 	}
 }
 
-// Active animation
 .active-animation {
 	position: absolute;
 	top: 30px;
@@ -73,7 +72,6 @@ export default {
 	transform: translate(-50%, 0);
 }
 
-// Page styles
 .fade {
 	background: $color1;
 }

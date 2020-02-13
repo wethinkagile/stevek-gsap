@@ -1,4 +1,5 @@
 <script>
+import { TweenMax, TimelineMax, Power4 } from 'gsap'
 const zoom = Vue.component('zoom', {
   template: '#page',
 	methods: {
@@ -29,7 +30,7 @@ const zoom = Vue.component('zoom', {
 	}
 })
 
-export default {
-  name: 'Zoom'
-}
+// export default {
+//   name: 'Zoom'
+// }
 </script>
