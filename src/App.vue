@@ -1,19 +1,26 @@
 <template>
   <div id="app">
-  <component :is="state.view">
+    <Slide></Slide>
+  <!-- <component :is="state.view">
 		<h1>{{ state.view }}</h1>
-	</component>
+	</component> -->
   <controls></controls>
 </div>
 </template>
 
 <script>
 
-// import Controls from './components/Controls.vue'
-// import Page from './components/Page.vue'
+import Controls from './components/Controls.vue'
+import Slide from './components/Slide.vue'
+import Page from './components/Page.vue'
 
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Page,
+    Controls,
+    Slide
+  }
 }
 
 </script>

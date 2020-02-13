@@ -1,3 +1,7 @@
+<template>
+  <p>{{ name }}</p>
+</template>
+
 <script>
 
 import { TweenMax, TimelineMax, Power4 } from 'gsap'
@@ -38,7 +42,12 @@ const slide = Vue.component('slide', {
 	}
 })
 
-// export default {
-//   name: 'Slide'
-// }
+export default {
+  data () {
+    return {
+      name: 'Slide'
+    }
+  }
+}
+
 </script>
