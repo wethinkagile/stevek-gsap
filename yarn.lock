@@ -7888,6 +7888,14 @@ vue-loader@^15.8.3:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-stripe-menu@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/vue-stripe-menu/-/vue-stripe-menu-1.2.6.tgz#4444b79bcb1e56771d8fa03d376a5ea5d770cb87"
+  integrity sha512-tNiZs4TvFqfnuiO3NJNgcjAW7/hQWuF/vDJA5dBNmxSRNf27ovSfXhPcKhPcm6Kz3bPaarHToE5AyruwBSY/vQ==
+  dependencies:
+    core-js "^3.6.4"
+    vue "^2.6.11"
+
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-4.1.2.tgz#dedf349806f25ceb4e64f3ad7c0a44fba735fcf8"
