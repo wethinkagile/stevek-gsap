@@ -67,7 +67,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 100vh;
+  min-height: 95vh;
 }
 
 .bubble-wrapper {
@@ -103,7 +103,7 @@ body {
 }
 
 .bubble-image {
-  height: 50%;
+  height: 100%;
 }
 </style>
 
