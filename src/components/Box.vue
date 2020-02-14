@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { TimelineLite, Back, Elastic, Expo } from "gsap"
+import { TimelineLite, Back, Elastic, Expo } from "gsap/dist/gsap"
 export default {
   data() {
     return {
