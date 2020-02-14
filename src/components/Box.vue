@@ -62,10 +62,12 @@ export default {
 <style>
 body {
   background: #1a1a1a;
-  padding-top: 80px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .bubble-wrapper {
