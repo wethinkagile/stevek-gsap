@@ -1,16 +1,139 @@
 <template>
-  <div id="app">
-    <Box />
+  <div id="app" v-bind:class="view">
+    <component :is="view">
+      <h1>{{ header }}</h1>
+    </component>
+    <controls></controls>
   </div>
 </template>
 
 <script>
-import Box from './components/Box.vue'
+import Controls from './components/Controls.vue'
+import Slide from './components/Slide.vue'
+import Zoom from './components/Zoom.vue'
+import SlideUp from './components/SlideUp.vue'
+import FlipX from './components/FlipX.vue'
+import FlipY from './components/FlipY.vue'
+import Fade from './components/Fade.vue'
+
+import { mapState } from 'vuex';
 
 export default {
-  components: { Box },
-  data() {
-    return {}
-  }
+  name: "App",
+  components: {
+    Controls, Slide, Zoom, SlideUp, FlipX, FlipY, Fade
+  },
+  computed: mapState([
+      'view',
+      'header'
+  ])
 }
+
+
 </script>
+
+<style>
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #202020;
+	font-size: 62.5%;
+}
+
+#app {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(76,76,76,1);
+	background: -moz-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(43,43,43,0.74) 36%, rgba(28,28,28,0.5) 71%, rgba(19,19,19,0.29) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(36%, rgba(43,43,43,0.74)), color-stop(71%, rgba(28,28,28,0.5)), color-stop(100%, rgba(19,19,19,0.29)));
+	background: -webkit-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(43,43,43,0.74) 36%, rgba(28,28,28,0.5) 71%, rgba(19,19,19,0.29) 100%);
+	background: -o-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(43,43,43,0.74) 36%, rgba(28,28,28,0.5) 71%, rgba(19,19,19,0.29) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(43,43,43,0.74) 36%, rgba(28,28,28,0.5) 71%, rgba(19,19,19,0.29) 100%);
+	background: linear-gradient(135deg, rgba(76,76,76,1) 0%, rgba(43,43,43,0.74) 36%, rgba(28,28,28,0.5) 71%, rgba(19,19,19,0.29) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+	color: #fff;
+}
+
+
+.page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #c0c0c0;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  font-size: 2.8rem;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: 'Vollkorn', Georgia, Times, serif;
+  font-size: 1.1rem;
+}
+
+a {
+  transition: color 200ms ease-out;
+  color: darken(rgba(#fff, .8), 40%);
+}
+
+a:hover {
+    color: darken(rgba(#fff, .8), 60%);
+  }
+
+
+.active-animation {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.fade {
+  background: #461467;
+}
+
+.slide {
+  background: #ffba57;
+}
+
+.zoom {
+  background: #ff7655;
+  /*   background: lighten(#ff7655, 20%); */
+}
+
+.flipX {
+  background: #00aca0;
+}
+
+.flipY {
+  background: #8ed3c9;
+}
+
+.slideUp {
+  background: #fcf5d8;
+}
+</style>
