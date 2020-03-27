@@ -1,7 +1,7 @@
 <template>
   <div id="app" v-bind:class="view">
     <component :is="view">
-      <h1>{{ header }}</h1>
+      <!-- <h1>{{ header }}</h1> -->
     </component>
     <controls></controls>
   </div>
@@ -24,8 +24,7 @@ export default {
     Controls, Slide, Zoom, SlideUp, FlipX, FlipY, Fade
   },
   computed: mapState([
-      'view',
-      'header'
+      'view'
   ])
 }
 
@@ -41,6 +40,9 @@ export default {
 body {
 	background: #202020;
 	font-size: 62.5%;
+  font-family: 'GlacialIndifferenceRegular';
+  font-weight: normal;
+  font-style: normal;
 }
 
 #app {
@@ -73,17 +75,48 @@ body {
 
 .center {
   position: absolute;
-  left: 50%;
-  top: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   font-size: 3rem;
   text-align: center;
 }
 
+.content {
+  position: relative;
+  left: 50%;
+  top: 38%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: auto;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.fl-porto {
+  position: relative;
+  margin-top: 1000px;
+
+	left: 0;
+	top: 0;
+
+  background: #ce8114;
+
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.porto-button {
+  cursor: pointer;
+}
+
+.porto-button:hover {
+  text-decoration: underline;
+}
+
 h1 {
   width: 100%;
-  margin: 0;
+  margin-top: 10;
   padding: 0;
   font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
   font-size: 2.8rem;
@@ -117,7 +150,7 @@ a:hover {
 }
 
 .slide {
-  background: #ffba57;
+  background: #ce8114;
 }
 
 .zoom {
