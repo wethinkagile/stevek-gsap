@@ -6,7 +6,7 @@
     </div>
     <div class="content">
       <h1>{{ header }}</h1>
-      Hello, my name is Steve K. I am currently an ICT freelance pro with 20 years of experience.
+      Hello, my name is Steve K. I'm currently an ICT Pro with 20 years of experience.
       I don't follow short-lived trends and marketing stunts. I heed the calling of
       free and open-source software, a world free of egoistical or psychopath interests.
       Since 18 years, I put all my efforts into the development of open and free software for
@@ -24,7 +24,7 @@
       for a better future for all of us. This Site is written with FOSS in VueJS. The underlying infrastructure
       is hosted on FOSS by Zeit, a serverless infrastructure. It spins up on demand and it will shut down after you leave this page.
       <br /><br />
-      Like my work ethic - Smart & Sustainable.
+      This is my work ethic - Smart & Sustainable.
     </div>
   </div>
 </transition>

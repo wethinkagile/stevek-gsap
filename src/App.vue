@@ -1,7 +1,6 @@
 <template>
   <div id="app" v-bind:class="view">
     <component :is="view">
-      <!-- <h1>{{ header }}</h1> -->
     </component>
     <controls></controls>
   </div>
@@ -88,7 +87,7 @@ body {
   transform: translate(-50%, -50%);
   width: 80%;
   height: auto;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-align: left;
 }
 
@@ -119,7 +118,7 @@ h1 {
   margin-top: 10;
   padding: 0;
   font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-  font-size: 2.8rem;
+  font-size: 3rem;
   text-transform: capitalize;
 }
 
@@ -167,6 +166,6 @@ a:hover {
 }
 
 .slideUp {
-  background: #fcf5d8;
+  background: #899b45;
 }
 </style>

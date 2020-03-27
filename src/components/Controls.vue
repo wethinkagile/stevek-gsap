@@ -7,11 +7,6 @@
 </ul>
 </template>
 
-<!-- <li v-for="(animation, index) in animations" v-bind:key="index"
-    @click.prevent="setView(animation)" v-bind:class="{ 'active': animation === view }">
-  {{ index }}
-</li> -->
-
 <script>
 import {
   mapState,
@@ -47,12 +42,12 @@ li {
   cursor: pointer;
   overflow: hidden;
   display: inline-block;
-  height: 30px;
-  margin: 0 10px;
-  padding: 0 30px;
-  border-radius: 10px;
-  font: .8rem/30px Arial, sans-serif;
-  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  height: 42px;
+  margin: 0 18px;
+  padding: 0 42px;
+  border-radius: 11px;
+  font: 1.5rem/40px Arial, sans-serif;
+  font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
   background: #505050;
 }
 
