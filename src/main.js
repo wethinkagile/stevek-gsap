@@ -12,7 +12,7 @@ const store = new Vuex.Store({
         ['About Me','fade'],
         ['Clients','slide'],
         ['References','slideUp'],
-        ['Apps','zoom'],
+        ['Algorithms','zoom'],
         ['Contact Me','flipX'],
         ['The Vlog','flipY']
       ],

@@ -15,6 +15,7 @@ import FlipX from './components/FlipX.vue'
 import FlipY from './components/FlipY.vue'
 import Fade from './components/Fade.vue'
 
+
 import { mapState } from 'vuex';
 
 export default {
@@ -91,25 +92,24 @@ body {
   text-align: left;
 }
 
-.fl-porto {
+.more-projects-1 {
   position: relative;
   margin-top: 1000px;
-
-	left: 0;
-	top: 0;
-
+  /* left: 50%;
+  top: 38%; */
+  /* transform: translate(-50%, -50%); */
   background: #ce8114;
-
-  width: 100vw;
-  height: 100vh;
-
+  /* width: 80%; */
+  /* height: auto; */
+  font-size: 1.6rem;
+  text-align: left;
 }
 
-.porto-button {
+.more-projects-button {
   cursor: pointer;
 }
 
-.porto-button:hover {
+.more-projects-button:hover {
   text-decoration: underline;
 }
 
@@ -117,13 +117,13 @@ h1 {
   width: 100%;
   margin-top: 10;
   padding: 0;
-  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  font-family: 'GlacialIndifferenceBold', Helvetica, Arial, sans-serif;
   font-size: 3rem;
   text-transform: capitalize;
 }
 
 p {
-  font-family: 'Vollkorn', Georgia, Times, serif;
+  font-family: 'GlacialIndifferenceRegular', Georgia, Times, serif;
   font-size: 1.1rem;
 }
 

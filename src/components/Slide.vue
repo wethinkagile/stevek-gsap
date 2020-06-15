@@ -5,7 +5,6 @@
       <slot></slot>
     </div>
     <div class="content">
-      <a href="#munichre"></a>
       <h1>{{ header }}</h1>
 
       <b>Name des Unternehmens</b><br />
@@ -23,12 +22,30 @@
 
       Kubernetes, CoreOS, AWS, Scrum, DevOps, Rapid-Prototyping, Xtreme Programming, Pair-Driven Development, Test-Driven-Development, Continuous Integration, Continuous Delivery, Jenkins, Helm, Python, Webdriver, Selenium, Apium, Leapwork, Browserstack, Groovy, Bash, Angular4, TypeScript, Ionic4, Node8, SAAS, PAAS, Swagger, Apiary, iOS, Android Nougat, BuddyBuild, AndroidSDK, XCode, Slack, Jira, Confluence, Azure, AWS, Amazon S3, Codeship, Logentries, Ubuntu, NodeJS, npm, bower, Jasmine, Karma, IntelliJ IDEA, Webstorm, PyStorm, Kanban, SCRUM, Retrospectives, Trello, Sprint Plannings, Refinements, Whiteboards.
 
-      <!-- <a class="porto-button" @click="goto('porto')">Porto, Portugal</a> -->
+      <br />
+      <br />
+
+      <a class="more-projects-button" @click="goto('more-projects-1')">More Projects..</a>
 
     </div>
 
-    <div ref="porto" class="fl-porto">
-      PORTOPORTOPORTO
+    <div ref="more-projects-1" class="more-projects-1">
+
+      <b>Name des Unternehmens</b><br />
+      Munich Re (Group)
+      <br /><br />
+
+      <b>Beschäftigungszeitraum </b><br />
+      Jun 2016 – Mar 2019<br /><br />
+
+      <b>Beschäftigungsdauer</b><br />
+      2 Jahre 9 Monate<br /><br />
+
+      <b>Ausführende Funktionen</b><br />
+      Mobile Developer, CI/CD designer, Cloud Infrastructure, TDD and Requirements Engineer<br /><br />
+
+      Kubernetes, CoreOS, AWS, Scrum, DevOps, Rapid-Prototyping, Xtreme Programming, Pair-Driven Development, Test-Driven-Development, Continuous Integration, Continuous Delivery, Jenkins, Helm, Python, Webdriver, Selenium, Apium, Leapwork, Browserstack, Groovy, Bash, Angular4, TypeScript, Ionic4, Node8, SAAS, PAAS, Swagger, Apiary, iOS, Android Nougat, BuddyBuild, AndroidSDK, XCode, Slack, Jira, Confluence, Azure, AWS, Amazon S3, Codeship, Logentries, Ubuntu, NodeJS, npm, bower, Jasmine, Karma, IntelliJ IDEA, Webstorm, PyStorm, Kanban, SCRUM, Retrospectives, Trello, Sprint Plannings, Refinements, Whiteboards.
+
     </div>
 
   </div>

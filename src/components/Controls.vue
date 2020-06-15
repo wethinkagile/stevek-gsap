@@ -47,12 +47,18 @@ li {
   padding: 0 42px;
   border-radius: 11px;
   font: 1.5rem/40px Arial, sans-serif;
-  font-family: 'GlacialIndifferenceRegular', Helvetica, Arial, sans-serif;
+  font-family: 'GlacialIndifferenceBold', Helvetica, Arial, sans-serif;
   background: #505050;
+  filter: brightness(60%);
 }
 
 .active {
-  filter: brightness(50%);
+  background: black;
+  filter: brightness(100%);
+}
+
+.active:hover {
+  filter: brightness(100%);
 }
 
 
