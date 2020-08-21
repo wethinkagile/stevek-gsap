@@ -6,19 +6,9 @@
     </div>
     <div class="content">
       <h1>{{ header }}</h1>
-      Hello, my name is Steve K. I'm offering my services as Open Source Linux Ninja with 20 years of
-      background in network application development.
-
-      I don't follow short-lived trends and marketing stunts. I heed the calling of
-      free and open-source software, a world free of egoistical or psychopath interests.
-
-      If you sign me up as your freelancer, rest assured, my toolchain is technologically bleeding edge and ethically prestine
-      for a better future for all of us. This Site is written with FOSS in VueJS. The underlying infrastructure
-      is hosted for free on a serverless infrastructure. It spins up on demand and it will shut down after you leave this page.
-      <br /><br />
-      Look around, you might find something of interest!
-      <br /><br />
-      - steve
+      A Kubernetes and Web Dev expert available for hire and coaching.<br /><br />
+      Munich-based, Remote & on premise, 80-110 Eur per hour.<br /><br /><br />
+      <b>#BleibenSieGesund #FlattenTheCurve</b>
     </div>
   </div>
 </transition>

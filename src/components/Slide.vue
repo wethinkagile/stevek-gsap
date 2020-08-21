@@ -22,11 +22,6 @@
 
       Kubernetes, CoreOS, AWS, Scrum, DevOps, Rapid-Prototyping, Xtreme Programming, Pair-Driven Development, Test-Driven-Development, Continuous Integration, Continuous Delivery, Jenkins, Helm, Python, Webdriver, Selenium, Apium, Leapwork, Browserstack, Groovy, Bash, Angular4, TypeScript, Ionic4, Node8, SAAS, PAAS, Swagger, Apiary, iOS, Android Nougat, BuddyBuild, AndroidSDK, XCode, Slack, Jira, Confluence, Azure, AWS, Amazon S3, Codeship, Logentries, Ubuntu, NodeJS, npm, bower, Jasmine, Karma, IntelliJ IDEA, Webstorm, PyStorm, Kanban, SCRUM, Retrospectives, Trello, Sprint Plannings, Refinements, Whiteboards.
 
-      <br />
-      <br />
-
-      <a class="more-projects-button" @click="goto('more-projects-1')">More Projects..</a>
-
     </div>
 
     <div ref="more-projects-1" class="more-projects-1">

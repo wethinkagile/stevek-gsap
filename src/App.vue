@@ -33,6 +33,8 @@ export default {
 
 <style>
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 * {
 	box-sizing: border-box;
 }
@@ -40,7 +42,7 @@ export default {
 body {
 	background: #202020;
 	font-size: 62.5%;
-  font-family: 'GlacialIndifferenceRegular';
+  font-family: 'Oswald', sans-serif;
   font-weight: normal;
   font-style: normal;
 }

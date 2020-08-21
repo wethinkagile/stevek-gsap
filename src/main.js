@@ -9,15 +9,15 @@ Vue.config.productionTip = false
 const store = new Vuex.Store({
   state: {
     animations:[
-        ['About Me','fade'],
-        ['Clients','slide'],
+        ['Steve','fade'],
+        ['Client','slide'],
         ['References','slideUp'],
-        ['Algorithms','zoom'],
-        ['Contact Me','flipX'],
-        ['The Vlog','flipY']
+        ['Algo','zoom'],
+        ['Contact','flipX'],
+        ['Imprint','flipY']
       ],
     view: 'fade',
-    header:  'About Me'
+    header:  'Steve'
   },
   mutations: {
     setView(state, index) {

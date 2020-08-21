@@ -735,6 +735,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.9.2":
+  version "7.10.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.3.tgz#670d002655a7c366540c67f6fd3342cd09500364"
+  integrity sha512-RzGO0RLSdokm9Ipe/YD+7ww8X2Ro79qiXZF3HU9ljrM+qnJmH1Vqth+hbiQZy761LnMJTMitHDuKVYTk3k4dLw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.8.3.tgz#e02ad04fe262a657809327f578056ca15fd4d1b8"
@@ -1466,6 +1473,11 @@ array-unique@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
   integrity sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
+
+arrayslicer@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/arrayslicer/-/arrayslicer-1.2.3.tgz#21a4903102a9aba7d8a73c44bf57f3e28c560136"
+  integrity sha1-IaSQMQKpq6fYpzxEv1fz4oxWATY=
 
 asn1.js@^4.0.0:
   version "4.10.1"
@@ -3862,6 +3874,16 @@ gzip-size@^5.0.0:
     duplexer "^0.1.1"
     pify "^4.0.1"
 
+hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+  integrity sha1-BO93hiz/K7edMPdpIJWTAiK/YPE=
+
+hamsterjs@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/hamsterjs/-/hamsterjs-1.1.3.tgz#4adc6b9100a3fcc7c65fc391debb249901a50df6"
+  integrity sha512-q4XBr7hnxx1WyZA8mpVDuZVa1YXaR0WZaFSBxnj8hUXltuqXJOt5yuWYkAbMXsj+q0REDUO990+/TuxEadXFyg==
+
 handle-thing@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-2.0.0.tgz#0e039695ff50c93fc288557d696f3c1dc6776754"
@@ -5247,6 +5269,11 @@ moment@2.11.2:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.11.2.tgz#87968e5f95ac038c2e42ac959c75819cd3f52901"
   integrity sha1-h5aOX5WsA4wuQqyVnHWBnNP1KQE=
 
+moment@^2.24.0:
+  version "2.27.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
+  integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -6576,6 +6603,11 @@ regenerator-runtime@^0.13.2:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
   integrity sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
 
+regenerator-runtime@^0.13.4:
+  version "0.13.5"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.5.tgz#d878a1d094b4306d10b9096484b33ebd55e26697"
+  integrity sha512-ZS5w8CpKFinUzOwW3c83oPeVXoNsrLsaCoLtJvAClH135j/R77RuymhiSErhm2lKcwSCIpmvIWSbDkIfAqKQlA==
+
 regenerator-transform@^0.14.0:
   version "0.14.1"
   resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.14.1.tgz#3b2fce4e1ab7732c08f665dfdb314749c7ddd2fb"
@@ -7680,6 +7712,18 @@ tough-cookie@~2.4.3:
   dependencies:
     psl "^1.1.24"
     punycode "^1.4.1"
+
+trading-vue-js@^0.5.0:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/trading-vue-js/-/trading-vue-js-0.5.1.tgz#03985497ddad9c6855bf33dd1658ad3208bb907a"
+  integrity sha512-iVc7kzy+5l1diDrXy+rfkH+2+23V+B97aH+YKdFNx05ToohX3vPBC/1cEZTVJnS5YIPcfkIOa94a2SiTcCUUSg==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    arrayslicer "^1.2.3"
+    hammerjs "^2.0.8"
+    hamsterjs "^1.1.3"
+    moment "^2.24.0"
+    vue "^2.6.11"
 
 tryer@^1.0.1:
   version "1.0.1"

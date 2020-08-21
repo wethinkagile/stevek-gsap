@@ -41,6 +41,8 @@ export default {
 
   components: { TradingVue },
 
+  // [timestamp, open, high, low, close, volume]
+
   data() {
        return {
            ohlcv: [
